@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Nth Child Selector</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript" />
+    <meta name="description" content="Hello guys!" />
+    <meta name="author" content="Erdem Alptuğ Öksüz" />
+    <style>
+      ul {
+        font-size: 1.5em;
+        list-style-type: none;
+      }
+      ul li:nth-child(2n) {
+        margin: 10px;
+        background-color: blue;
+        color: white;
+      }
+      ul li:nth-child(2n + 1) {
+        margin: 10px;
+        background-color: red;
+        color: wheat;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+      <li>Elements</li>
+    </ul>
+  </body>
+</html>
