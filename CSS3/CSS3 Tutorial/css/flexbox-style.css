@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 75%;
+    margin: 10px auto;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: black;
+}
+.box {
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 200px;
+    border: 1px solid black;
+}
