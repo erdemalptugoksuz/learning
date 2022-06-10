@@ -86,3 +86,56 @@ a {
     background: #1E555C;
     border-radius: 10px;
 }
+
+/* Experience Section */
+#experiences {
+    color: #3A2E39;
+    padding: 1rem;
+}
+.experiences {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.experiences .experience {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.experiences .experience .experience-image {
+    margin-right: 0.5rem;
+    position: relative;
+}
+.experiences .experience .experience-image img {
+    width: 75%;
+    border-radius: 5px;
+}
+.experiences .experience .experience-image span{
+    background: #F15152;
+    padding: 0.25rem;
+    color: #F4D8CD;
+    border-radius: 4px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+.experiences .experience .experience-info .title {
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+.experiences .experience .experience-info .description {
+    letter-spacing: 1.2px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.experiences .experience .experience-info .timezone {
+    letter-spacing: 0.8px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.experiences .experience .experience-info .locate {
+    letter-spacing: 0.8px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}

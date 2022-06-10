@@ -14,3 +14,11 @@
 #certificate .items .item {
     width: 100%;
 }
+
+/* Experience Section */
+.experiences .experience {
+    flex-direction: column;
+}
+.experiences .experience .experience-image img {
+    width: 100%;
+}
