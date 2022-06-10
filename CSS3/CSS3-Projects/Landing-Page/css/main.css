@@ -4,12 +4,15 @@
     box-sizing: border-box;
 }
 html {
+    background: #F4D8CD;
     font-family: 'Poppins', sans-serif;
 }
 a {
     text-decoration: none;
     color: #F4D8CD;
 }
+
+/* Navbar Section */
 #navbar {
     color: #F4D8CD;
     display: flex;
@@ -36,4 +39,27 @@ a {
 }
 .logo h1 {
     margin: 0.5rem;
+}
+
+/* Home Section */
+#home {
+    color: #3A2E39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2 {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
 }
