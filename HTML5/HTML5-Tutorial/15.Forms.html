@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <title>Forms</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML5, CSS3, JavaScript" />
+    <meta name="description" content="Hello guys!" />
+    <meta name="author" content="Erdem Alptuğ Öksüz" />
+    <style>
+      form {
+        margin: 30px;
+        text-align: center;
+      }
+      .form-item {
+        margin-top: 10px;
+      }
+      .form-item label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <!--Head-->
+      <h2>Sign In Form</h2>
+
+      <!--Inputs-->
+      <div class="form-item">
+        <label for="name">Name</label> <br />
+        <input type="text" id="name" placeholder="Your name" />
+      </div>
+      <div class="form-item">
+        <label for="surname">Surname</label> <br />
+        <input type="text" id="surname" placeholder="Your surname" />
+      </div>
+      <div class="form-item">
+        <label for="email">Email</label> <br />
+        <input type="email" id="email" placeholder="Your email" />
+      </div>
+      <div class="form-item">
+        <label for="password">Password</label> <br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="form-item">
+        <label for="repassword">Re Password</label> <br />
+        <input
+          type="password"
+          id="repassword"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="form-item">
+        <label for="date">Date</label> <br />
+        <input type="date" id="date" />
+      </div>
+      <div class="form-item">
+        <label>Gender</label> <br />
+        Male
+        <input type="radio" id="gender" value="male" />
+        Female
+        <input type="radio" id="gender" value="female" />
+        Other
+        <input type="radio" id="gender" value="other" />
+      </div>
+      <div class="form-item">
+        <label>Hobbies</label> <br />
+        Technology
+        <input type="checkbox" name="tech" id="tech" />
+        Music
+        <input type="checkbox" name="music" id="music" />
+        Art
+        <input type="checkbox" name="art" id="art" />
+      </div>
+      <div class="form-item">
+        <label>Degree</label> <br />
+        <select name="degree" id="degree">
+          <option value="bachelor">Lisans</option>
+          <option value="msc">Yüksek Lisans</option>
+          <option value="phd">Doktora</option>
+        </select>
+      </div>
+      <div class="form-item">
+        <label>Bio</label> <br />
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your bio"
+        ></textarea>
+      </div>
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
