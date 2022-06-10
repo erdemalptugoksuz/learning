@@ -63,3 +63,26 @@ a {
     opacity: 0.6;
     font-style: italic;
 }
+
+/* Certificate Section */
+#certificate {
+    color: #F4D8CD;
+    padding: 1rem;
+}
+#certificate .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#certificate .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#certificate .items .item a {
+    padding: 0.5rem;
+}
+#certificate .items .item a:hover {
+    background: #1E555C;
+    border-radius: 10px;
+}

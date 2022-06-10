@@ -1,7 +1,16 @@
+/* Navbar Section */
 #navbar {
     flex-direction: column;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     overflow: hidden;
     height: 80px;
+}
+
+/* Certificate Section */
+#certificate .items {
+    flex-direction: column;
+}
+#certificate .items .item {
+    width: 100%;
 }
